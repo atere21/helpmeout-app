@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from "../assets/images/logofull.png";
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-router-dom';
 import { HiMenuAlt2 } from 'react-icons/hi';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 

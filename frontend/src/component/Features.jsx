@@ -6,7 +6,7 @@ import stop from "../assets/images/stop.png";
 
 const Features = () => {
   // Define an array of feature objects for mapping
-  const features = [
+   [
     {
       image: stop,
       title: 'Simple Screen Recording',
