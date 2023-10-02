@@ -3,6 +3,7 @@ import hello from "../assets/images/hello.png";
 import share from "../assets/images/share.png";
 import revisit from "../assets/images/reshare.png";
 import stop from "../assets/images/stop.png";
+import { Link } from 'react-scroll';
 
 const Features = () => {
   // Define an array of feature objects for mapping
@@ -41,9 +42,10 @@ const Features = () => {
             <div className='flex p-2' key={index}>
               <img className='w-8 h-8 mr-4 mt-2' src={feature.image} alt='/' />
               <div>
-                <a href={feature.link}>
+                
+                <Link to={feature.link}>
                   <h2 className='text-[#1B233D] cursor-pointer font-bold text-2xl'>{feature.title}</h2>
-                </a>
+                </Link>
                 <p className='w-[70%]'>{feature.description}</p>
               </div>
             </div>
