@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 const CreateAccount = () => {
   return (
@@ -12,12 +13,12 @@ const CreateAccount = () => {
       </button>
       <p className="text-center text-xl text-[#7E7E7E]">  
         Don’t have an account? 
-    
+        <a href='/getstarted'>
         <span className="text-[#120B48] cursor-pointer hover:text-blue-800">Create account</span>
-  
+        </a>
       </p>
     </div>
-  
+    <Footer/>
     </div>
   )
 }

@@ -11,19 +11,19 @@ const Features = () => {
       image: stop,
       title: 'Simple Screen Recording',
       description: 'Effortless screen recording for everyone. Record with ease, no tech expertise required.',
-      
+      link: '/ready',
     },
     {
       image: share,
       title: 'Easy-to-Share URL',
       description: 'Share your recordings instantly with a single link. No attachments, no downloads.',
-  
+      link: '/ready',
     },
     {
       image: revisit,
       title: 'Revisit Recordings',
       description: 'Access and review your past content effortlessly. Your recordings, always at your fingertips.',
-      
+      link: '/ready',
     },
   ];
 
@@ -41,10 +41,9 @@ const Features = () => {
             <div className='flex p-2' key={index}>
               <img className='w-8 h-8 mr-4 mt-2' src={feature.image} alt='/' />
               <div>
-                
-                
+                <a href={feature.link}>
                   <h2 className='text-[#1B233D] cursor-pointer font-bold text-2xl'>{feature.title}</h2>
-            
+                </a>
                 <p className='w-[70%]'>{feature.description}</p>
               </div>
             </div>

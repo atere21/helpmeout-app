@@ -8,9 +8,9 @@ const Login = () => {
     <div className="h-full w-full bg-white flex flex-col mb-4">
       {/* Logo on the left */}
       <div className="flex justify-start">
-      
-          <img src={logo} alt='/' className='w-35 h-12 mx-8 mt-8' />
-        
+        <a href='/'>
+          <img src={logo} alt='Logo' className='w-35 h-12 mx-8 mt-8' />
+        </a>
       </div>
 
       <div className="flex justify-center items-center flex-grow">

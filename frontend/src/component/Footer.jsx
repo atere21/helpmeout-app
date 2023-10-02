@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "../assets/images/logohelp.png"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
