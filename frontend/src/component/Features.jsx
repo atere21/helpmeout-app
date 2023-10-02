@@ -43,7 +43,7 @@ const Features = () => {
               <img className='w-8 h-8 mr-4 mt-2' src={feature.image} alt='/' />
               <div>
                 
-                <Link to={feature.link}>
+                <Link to="/feature.link">
                   <h2 className='text-[#1B233D] cursor-pointer font-bold text-2xl'>{feature.title}</h2>
                 </Link>
                 <p className='w-[70%]'>{feature.description}</p>
