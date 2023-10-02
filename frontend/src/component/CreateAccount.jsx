@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 
 const CreateAccount = () => {
   return (
@@ -18,7 +17,7 @@ const CreateAccount = () => {
         </a>
       </p>
     </div>
-    <Footer/>
+  
     </div>
   )
 }
