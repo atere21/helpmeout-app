@@ -5,7 +5,6 @@ import whatsapp from "../assets/images/whatsapp.png";
 import telegram from "../assets/images/telegram.png";
 import facebook from "../assets/images/face.png";
 import video from "../assets/images/videoplay.png";
-import CreateAccount from './CreateAccount';
 
 
 const Ready = () => {
@@ -57,17 +56,17 @@ const Ready = () => {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-2 w-[60%]'>
           <button className="flex bg-white text-black font-semibold py-2 px-4 rounded-lg mb-4 border">
-            <img className='mr-2' src={facebook} alt='Facebook' />
+            <img className='mr-2' src={facebook} alt='/' />
             Facebook
           </button>
 
           <button className="flex bg-white border-r-gray-500 text-black font-semibold py-2 px-4 rounded-lg mb-4 border">
-            <img className='mr-2' src={whatsapp} alt='Whatsapp' />
+            <img className='mr-2' src={whatsapp} alt='/' />
             Whatsapp
           </button>
 
           <button className="flex bg-white text-black font-semibold py-2 px-4 rounded-lg mb-4 border">
-            <img className='mr-2' src={telegram} alt='Telegram' />
+            <img className='mr-2' src={telegram} alt='/' />
             Telegram
           </button>
         </div>
@@ -112,7 +111,7 @@ const Ready = () => {
       </div>
       
     </div>
-    <CreateAccount/>
+    {/* <CreateAccount/> */}
     </div>
   );
 }
